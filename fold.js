@@ -1,4 +1,4 @@
-//
+//function that works as reduce in JS
 
 var xs = [1,2,3]; // [2,3,4];
 
