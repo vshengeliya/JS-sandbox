@@ -1,3 +1,36 @@
+//
+
+var xs = [1,2,3]; // [2,3,4];
+
+function addOne(xs){
+   let xs = [];
+   for (let num of xs){
+     xs.push(num+1);
+   };
+   return xs;
+ }
+
+addOne(xs); // 2
+
+
+function sum(xs) { 
+}
+
+// sum([1,2,3]) == 6;
+// sum([1,2,3,4]) == 10;
+// sum([]) == 0;
+
+
+function sum(xs){
+   let s = 0;
+   for (let num of xs){
+     s += num;
+   };
+   return s;
+ }
+
+
+
 function fold(xs,init,func) {
         
     let accum = init;
